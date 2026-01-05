@@ -1,36 +1,37 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: FirenzeDigital # Your GitHub organization or username, where this repository lives
+repo: upptime-holycrm # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  # HolyCRM.app Website
+  # - name: HolyCRM.app Website
+  #   url: https://holycrm.app
+  # HolyCRM.app production instances
+  # - name: HolyCRM.app production frontend instance
+  #   url: https://app.holycrm.app
+  # - name: HolyCRM.app production backend instance
+  #   url: https://pb.holycrm.app/backend/api/health
+  # HolyCRM.app dev instances
+  - name: HolyCRM.app dev frontend instance
+    url: https://app-dev.holycrm.app
+  - name: HolyCRM.app dev backend instance
+    url: https://pb-dev.holycrm.app/backend/api/health
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
+  cname: status.holycrm.app
   # baseUrl: /your-repo-name
+  theme: night
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
-  navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+  name: Status - HolyCRM.app
+  introTitle: "HolyCRM.app -  **Upptime** Status page."
+  introMessage: This is a status page which uses **real-time** data multiples endpoints. If you have any issues, please contact us via email to support@holycrm.app
+  # navbar:
+  #   - title: Status
+  #     href: /
+  #   - title: GitHub
+  #     href: https://github.com/$OWNER/$REPO
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
