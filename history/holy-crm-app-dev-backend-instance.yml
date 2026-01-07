@@ -1,7 +1,7 @@
 url: https://pb-dev.holycrm.app/backend/api/health
-status: up
-code: 200
-responseTime: 548
-lastUpdated: 2026-01-06T23:19:06.099Z
+status: down
+code: 403
+responseTime: 192
+lastUpdated: 2026-01-07T13:43:07.789Z
 startTime: 2026-01-05T14:07:26.942Z
 generator: Upptime <https://github.com/upptime/upptime>
