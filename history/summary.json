@@ -5,18 +5,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/app-dev.holycrm.app.ico",
     "slug": "holy-crm-app-dev-frontend-instance",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 331,
-    "timeDay": 271,
-    "timeWeek": 331,
-    "timeMonth": 331,
-    "timeYear": 331,
+    "uptime": "81.03%",
+    "uptimeDay": "53.59%",
+    "uptimeWeek": "81.03%",
+    "uptimeMonth": "81.03%",
+    "uptimeYear": "81.03%",
+    "time": 298,
+    "timeDay": 147,
+    "timeWeek": 298,
+    "timeMonth": 298,
+    "timeYear": 298,
     "dailyMinutesDown": {
-      "2026-01-07": 0
+      "2026-01-08": 51,
+      "2026-01-07": 617
     }
   },
   {
@@ -25,18 +26,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/pb-dev.holycrm.app.ico",
     "slug": "holy-crm-app-dev-backend-instance",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 443,
-    "timeDay": 370,
-    "timeWeek": 443,
-    "timeMonth": 443,
-    "timeYear": 443,
+    "uptime": "81.04%",
+    "uptimeDay": "53.59%",
+    "uptimeWeek": "81.04%",
+    "uptimeMonth": "81.04%",
+    "uptimeYear": "81.04%",
+    "time": 398,
+    "timeDay": 163,
+    "timeWeek": 398,
+    "timeMonth": 398,
+    "timeYear": 398,
     "dailyMinutesDown": {
-      "2026-01-07": 0
+      "2026-01-08": 51,
+      "2026-01-07": 617
     }
   }
 ]
